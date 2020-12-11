@@ -1,15 +1,19 @@
 {
   "name": "note-taker",
+  "homepage": "https://myusername.github.io/note-taker",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "gh-pages": "^3.1.0",
     "nodemon": "^2.0.6"
   }
 }
