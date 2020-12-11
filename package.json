@@ -1,13 +1,12 @@
 {
   "name": "note-taker",
-  "homepage": "https://myusername.github.io/note-taker",
+  "homepage": "https://debbesen.github.io/note-taker",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "start": "node server.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
